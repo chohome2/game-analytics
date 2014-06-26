@@ -1,7 +1,7 @@
 'use strict';
 
 angular
-    .module('mutzipAdminApp', [
+    .module('gameAnalyticsApp', [
         'ngCookies',
         'ngResource',
         'ngSanitize',

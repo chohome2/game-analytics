@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('mutzipAdminApp')
+angular.module('gameAnalyticsApp')
     .directive('accessLevel', ['Auth', function(Auth) {
         return {
             restrict: 'A',
@@ -33,7 +33,7 @@ angular.module('mutzipAdminApp')
         };
     }]);
 
-angular.module('mutzipAdminApp').directive('activeNav', ['$location', function($location) {
+angular.module('gameAnalyticsApp').directive('activeNav', ['$location', function($location) {
     return {
         restrict: 'A',
         link: function(scope, element, attrs) {

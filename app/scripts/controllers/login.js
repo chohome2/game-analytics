@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('mutzipAdminApp')
+angular.module('gameAnalyticsApp')
     .controller('LoginCtrl', function ($scope, $rootScope, $state, Auth) {
         $('#loginModal').modal({
             keyboard: false,

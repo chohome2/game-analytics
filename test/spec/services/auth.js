@@ -3,7 +3,7 @@
 describe('Service: auth', function () {
 
   // load the service's module
-  beforeEach(module('mutzipAdminApp'));
+  beforeEach(module('gameAnalyticsApp'));
 
   // instantiate service
   var auth;

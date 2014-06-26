@@ -1,8 +1,7 @@
 'use strict';
 
-angular.module('mutzipAdminApp')
+angular.module('gameAnalyticsApp')
     .controller('HeaderCtrl', function ($scope,$state,Auth) {
-
         $scope.logout = function() {
             Auth.logout(function() {
                 $state.go('anon.login');

@@ -3,7 +3,7 @@
 describe('Controller: MenuCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('mutzipAdminApp'));
+  beforeEach(module('gameAnalyticsApp'));
 
   var MenuCtrl,
     scope;

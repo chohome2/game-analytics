@@ -14,6 +14,7 @@ var left_side_width = 220; //Sidebar width in pixels
 var initLTE = function() {
     "use strict";
     console.log('init start');
+
     //Enable sidebar toggle
     $("[data-toggle='offcanvas']").click(function(e) {
         e.preventDefault();
@@ -686,7 +687,7 @@ $(window).load(function() {
  * Copyright (c) 2010 "Cowboy" Ben Alman
  * Dual licensed under the MIT and GPL licenses.
  * http://benalman.com/about/license/
- */
+
 (function($, h, c) {
     var a = $([]), e = $.resize = $.extend($.resize, {}), i, k = "setTimeout", j = "resize", d = j + "-special-event", b = "delay", f = "throttleWindow";
     e[b] = 250;
@@ -742,7 +743,7 @@ $(window).load(function() {
         }, e[b])
     }}
 )(jQuery, this);
-
+ */
 /*!
  * SlimScroll https://github.com/rochal/jQuery-slimScroll
  * =======================================================

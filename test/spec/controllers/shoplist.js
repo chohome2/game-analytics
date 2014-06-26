@@ -3,7 +3,7 @@
 describe('Controller: ShoplistCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('mutzipAdminApp'));
+  beforeEach(module('gameAnalyticsApp'));
 
   var ShoplistCtrl,
     scope;

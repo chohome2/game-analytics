@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('mutzipAdminApp')
+angular.module('gameAnalyticsApp')
     .factory('Auth', function($http, $cookies){
         var accessLevels = routingConfig.accessLevels
             , userRoles = routingConfig.userRoles

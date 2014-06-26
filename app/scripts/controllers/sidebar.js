@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('mutzipAdminApp')
+angular.module('gameAnalyticsApp')
   .controller('SidebarCtrl', function ($scope, Auth) {
         initLTE();
         $scope.user = Auth.user;

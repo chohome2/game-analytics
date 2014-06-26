@@ -3,7 +3,7 @@
 describe('Controller: HeaderCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('mutzipAdminApp'));
+  beforeEach(module('gameAnalyticsApp'));
 
   var HeaderCtrl,
     scope;
