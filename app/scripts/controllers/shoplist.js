@@ -6,8 +6,7 @@ angular.module('gameAnalyticsApp')
             $.getJSON('/data/dau.json', function(data) {
                 // Create the chart
                 console.log(data);
-
-                $('#graph1').highcharts('StockChart', {
+                $('#graph-dau').highcharts('StockChart', {
                     rangeSelector : {
                         selected : 1,
                         inputEnabled: false
@@ -20,6 +19,30 @@ angular.module('gameAnalyticsApp')
                     },
                     series : [{
                         name : 'DAU',
+                        data : data,
+                        tooltip: {
+                            valueDecimals: 2
+                        }
+                    }]
+                });
+            });
+
+            $.getJSON('/data/newuser.json', function(data) {
+                // Create the chart
+                console.log(data);
+                $('#graph-newuser').highcharts('StockChart', {
+                    rangeSelector : {
+                        selected : 1,
+                        inputEnabled: false
+                    },
+                    credits: {
+                        enabled: false
+                    },
+                    title : {
+                        text : 'New User'
+                    },
+                    series : [{
+                        name : 'New User',
                         data : data,
                         tooltip: {
                             valueDecimals: 2
