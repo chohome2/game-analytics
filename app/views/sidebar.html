@@ -1,0 +1,53 @@
+        <section class="sidebar" ng-controller="SidebarCtrl">
+            <!-- Sidebar user panel -->
+            <div class="user-panel">
+                <div class="pull-left image">
+                    <img src="img/avatar3.png" class="img-circle" alt="User Image" />
+                </div>
+                <div class="pull-left info">
+                    <p>Hello, 관리자</p>
+                    <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+                </div>
+            </div>
+
+            <!-- sidebar menu: : style can be found in sidebar.less -->
+            <ul class="sidebar-menu">
+                <li data-access-level='accessLevels.admin' >
+                    <a href="#">
+                        <i class="fa fa-dashboard"></i> <span>menu1</span>
+                    </a>
+                </li>
+                <li data-access-level='accessLevels.user'>
+                    <a href="#">
+                        <i class="fa fa-list"></i> <span>menu2</span>
+                    </a>
+                </li>
+                <li data-access-level='accessLevels.user'>
+                    <a href="#">
+                        <i class="fa fa-bar-chart-o"></i> <span>menu3</span>
+                    </a>
+                </li>
+                <li data-access-level='accessLevels.admin'>
+                    <a href="#">
+                        <i class="fa fa-cog"></i> <span>menu4</span>
+                    </a>
+                </li>
+                <li data-access-level='accessLevels.user'>
+                    <a href="#">
+                        <i class="fa fa-file-text-o"></i> <span>menu5</span>
+                    </a>
+                </li>
+                <li class="treeview" data-access-level='accessLevels.user'>
+                    <a href="#">
+                        <i class="fa fa-bar-chart-o"></i>
+                        <span>accordian menu</span>
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li><a href="#"><i class="fa fa-angle-double-right"></i> sub menu1</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right"></i> sub menu1</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right"></i> sub menu1</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
